@@ -15,3 +15,29 @@ if (reste>=100){
 }else {
     console.log("Attention budget serré");
 }
+
+let loisirs = salaireMensuel * 0.15;
+
+let totalDepenses = loyer + nourriture + transport + autresDepenses + loisirs;
+
+let reste = salaireMensuel - totalDepenses;
+
+let pourcentageLoyer = (loyer / salaireMensuel) * 100;
+let pourcentageNourriture = (nourriture / salaireMensuel) * 100;
+let pourcentageTransport = (transport / salaireMensuel) * 100;
+let pourcentageAutres = (autresDepenses / salaireMensuel) * 100;
+let pourcentageLoisirs = (loisirs / salaireMensuel) * 100;
+
+loyer = salaireMensuel * 0.3;
+nourriture = salaireMensuel * 0.2;
+transport = salaireMensuel * 0.1;
+loisirs = salaireMensuel * 0.15;
+
+totalDepenses = loyer + nourriture + transport + autresDepenses + loisirs;
+reste = salaireMensuel - totalDepenses;
+
+pourcentageLoyer = (loyer / salaireMensuel) * 100;
+pourcentageNourriture = (nourriture / salaireMensuel) * 100;
+pourcentageTransport = (transport / salaireMensuel) * 100;
+pourcentageAutres = (autresDepenses / salaireMensuel) * 100;
+pourcentageLoisirs = (loisirs / salaireMensuel) * 100;
